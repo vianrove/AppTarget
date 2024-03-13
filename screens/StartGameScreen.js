@@ -33,7 +33,7 @@ function StartGameScreen({ onPickNumber }) {
 
   return (
     <View style={styles.rootContainer}>
-      <Title>Target game</Title>
+      <Title style={{marginBottom: 24}}>Target game</Title>
       <Card>
         <InstructionText>Enter a number </InstructionText>
         <TextInput
@@ -66,7 +66,7 @@ const styles = StyleSheet.create({
   rootContainer: {
     flex: 1,
     marginTop: 100,
-    alignItems: "center"
+    alignItems: "center",
   },
   numberInput: {
     width: 50,
