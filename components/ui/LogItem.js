@@ -13,7 +13,10 @@ export default LogItem;
 
 const styles = StyleSheet.create({
   itemContainer: {
-    padding: 8,
+    padding: 18,
+    marginBottom: 8,
+    borderRadius: 18,
+    backgroundColor: Colors.primary300,
   },
   itemText: {
     fontFamily: "DMSans-Regular",
